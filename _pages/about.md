@@ -2,24 +2,28 @@
 layout: about
 title: Home
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: # <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: mex4.png
   image_circular: false # crops the image to make it circular
-  address: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+  # address: >
+  #   <p>555 your office number</p>
+  #   <p>123 your address street</p>
+  #   <p>Your City, State 12345</p>
 
 news: true  # includes a list of news items
-selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true  # includes social icons at the bottom of the page
+publications: true # includes a list of papers marked as "selected={true}"
+# selected_papers: true # includes a list of papers marked as "selected={true}"
+social: false  # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+Hey 👋, I'm Yao Chen, and I'm currently a third-year Ph.D. student (Sep.2020 -) at the [Robot Mobility & Manipulation (ROMA) Lab](https://www.sustech.edu.cn/) of [SUSTech](https://www.sustech.edu.cn/), shenzhen, China, working with Prof.[Zhenzhong Jia](https://mee.sustech.edu.cn/2019/jiaoshou4_0930/842.html).
 
-Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+I finished my Masters degree (Sep.2017 - Dec. 2019) in Robotics at Harbin Institute Of Technology, ShenZhen ([HITSZ](http://en.hitsz.edu.cn/)), supervised by Prof. [Wenfu Xu](http://faculty.hitsz.edu.cn/xuwenfu).
+Prior that, I obtained a B.Eng (Sep.2013 - Jun. 2017) from Harbin Institute Of Technolog, Harbin ([HIT](http://www.hit.edu.cn/)), also studying Robotics.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+<!-- <p style="margin-top:50px"></p> -->
+My research focues includes 🔭: dynamic perception in complex surroundings integrated learning manner and interaction-aware navigation for spatial AI form contact-based sensors.
+My research goal is to implement human-level intelligient robots that can traveling more dynamic areas, which can help to create a better future and enjoy this process. 

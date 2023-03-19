@@ -6,7 +6,11 @@ layout: default
       <div class="post">
         <header class="post-header">
           <h1 class="post-title">
-           {% if site.title == "blank" -%}<span class="font-weight-bold">{{ site.first_name }}</span> {{ site.middle_name }} {{ site.last_name }}{%- else -%}{{ site.title }}{%- endif %}
+            {% if site.title == "blank" -%}<span class="font-weight-bold">Chen Yao</span> 
+            <!-- {{ site.middle_name }} {{ site.last_name }} -->
+            (姚 辰)
+            {%- else -%}{{ site.title }}
+            {%- endif %}
           </h1>
           <p class="desc">{{ page.subtitle }}</p>
         </header>
@@ -42,15 +46,61 @@ layout: default
 
           <!-- News -->
           {% if page.news -%}
-            <h2><a href="{{ '/news/' | relative_url }}" style="color: inherit;">news</a></h2>
+            <!-- <h2><a href="{{ '/news/' | relative_url }}" style="color: inherit;">news</a></h2> -->
+            <HR align=center width="100%" SIZE=7>
+            <!-- <h2>News</h2> -->
             {%- include news.html %}
           {%- endif %}
 
+
+
+          <HR align=center width="100%" SIZE=7>
           <!-- Selected papers -->
-          {% if page.selected_papers -%}
-            <h2><a href="{{ '/publications/' | relative_url }}" style="color: inherit;">selected publications</a></h2>
+          {% if page.publications -%}
+            <!-- <h2><a href="{{ '/publications/' | relative_url }}" style="color: inherit;">selected publications</a></h2> -->
+            <!-- <h2>Publications</h2> -->
             {%- include selected_papers.html %}
           {%- endif %}
+
+          <!-- <HR align=center width="100%" SIZE=7>
+          <div class="content">    
+            <h2>Academic Service</h2>
+            <ul>
+              <li>Journal reviewer:</li>
+              <li>Conferences reviewer:</li>
+              <li>Teaching Assistant: 2021 MEE5115 Walking humanoid robot,  2020 MEE201 Moblie robot </li>
+              <li>Community: Paopao SLAM </li>
+            </ul>
+          </div>
+
+          <HR align=center width="100%" SIZE=7>
+          <div class="content">    
+            <h2>Honors & Awards</h2>
+            <ul>
+              <li>2018, Academic Scholarship - Harbin Institute Of Technology, ShenZhen </li>
+              <li>2015: Outstanding Student Cadres - Harbin Institute of Technology. </li>
+            </ul>
+          </div> -->
+          
+
+
+
+
+
+          <!-- <p style="margin-top:35px"></p>
+          <h3 class="post-title">Happy Halloween from the Cassie robot!</h3>
+          <p></p>
+          <div class="video-container">
+            <iframe class="video z-depth-1 rounded" src="https://www.youtube.com/embed/4OUr2DspYoo?&autoplay=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+            </iframe></div> -->
+
+
+
+          <!-- <div class="middle">
+            <p style="width: 15% ">
+              <script type="text/javascript" id="clstr_globe" src="https://clustrmaps.com/globe.js?d=6LD15FldHJTNKgptGPtBnsTL-Z22XRmOndAF8FZRfts"></script>  </p>
+          </div> -->
+
 
           <!-- Social -->
           {%- if page.social %}
@@ -67,4 +117,11 @@ layout: default
           {%- endif %}
         </article>
 
+
+
+        <p style="margin-top:30px"></p>
+        <hr align=center width="100%" SIZE=7></hr>
+        <!-- <hr/> -->
+        <p style="text-align:center">See more here and wait...</p>
+        <!-- <p style="margin-top:30px"></p> -->
 </div>

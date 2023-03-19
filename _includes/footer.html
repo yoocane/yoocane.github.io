@@ -1,10 +1,12 @@
     {% if site.footer_fixed %}
     <footer class="fixed-bottom">
       <div class="container mt-0">
-        &copy; Copyright {{ site.time | date: '%Y' }} {{ site.first_name }} {{ site.middle_name }} {{ site.last_name }}. {{ site.footer_text }}
+        &copy; Copyright {{ site.time | date: '%Y' }} {{ site.first_name }} {{ site.middle_name }} {{ site.last_name }} (姚 辰). {{ site.footer_text }}
         {%- if site.impressum_path -%}
         <a href="{{ site.url }}{{ site.baseurl }}{{ site.impressum_path }}">Impressum</a>.
         {%- endif -%}
+        <!-- Powered by <a href="https://jekyllrb.com/">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio/">al-folio</a> theme. Hosted by <a href="https://pages.github.com/">GitHub Pages</a>. -->
+        
         {%- if site.last_updated -%}
         Last updated: {{ "now" | date: '%B %d, %Y' }}.
         {%- endif %}
@@ -17,9 +19,12 @@
         {%- if site.impressum_path -%}
         <a href="{{ site.url }}{{ site.baseurl }}{{ site.impressum_path }}">Impressum</a>.
         {%- endif -%}
+        <!-- Powered by <a href="https://jekyllrb.com/">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio/">al-folio</a> theme. Hosted by <a href="https://pages.github.com/">GitHub Pages</a>. -->
         {%- if site.last_updated -%}
         Last updated: {{ "now" | date: '%B %d, %Y' }}.
         {%- endif %}
+
+
       </div>
     </footer>
     {%- endif %}
