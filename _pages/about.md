@@ -1,8 +1,8 @@
 ---
 layout: about
-title: about
+title: Home
 permalink: /
-subtitle: ganlu [at] caltech [dot] edu
+subtitle: # ganlu [at] caltech [dot] edu
 
 profile:
   align: right
