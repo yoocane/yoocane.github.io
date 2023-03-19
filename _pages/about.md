@@ -2,24 +2,24 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: ganlu [at] caltech [dot] edu
 
 profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   address: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>MC 105-50</p>
+    <p>1200 E. California Bvd.</p>
+    <p>Pasadena, CA 91125-2100</p>
 
 news: true  # includes a list of news items
-selected_papers: true # includes a list of papers marked as "selected={true}"
+selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I am currently a Postdoc Researcher at the Graduate Aerospace Laboratories of the California Institute of Technology ([GALCIT](https://galcit.caltech.edu/)), working with Prof. [Soon-Jo Chung](https://galcit.caltech.edu/people/sjchung) and Prof. [Yisong Yue](http://www.yisongyue.com/). I am also affiliated with the Center for Autonomous Systems and Technologies ([CAST](http://cast.caltech.edu/)) at Caltech. I was named a [Rising Star in Data Science](https://datascience.uchicago.edu/rising-stars/#rising-stars-profiles-2) by the University of Chicago in 2022.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+I have completed my Ph.D. in Robotics in 2022 from the [Robotics Institute](https://robotics.umich.edu/) at the University of Michigan (UM), advised by Prof. [Ryan Eustice](http://robots.engin.umich.edu/~ryan/), Prof. [Jessy Grizzle](https://ece.umich.edu/faculty/grizzle/) and Prof. [Maani Ghaffari](https://curly.engin.umich.edu/people#h.7jd25w55csv). I worked as a member of the Perceptual Robotics Laboratory ([PeRL](http://robots.engin.umich.edu/)), the Computational Autonomy and Robotics Laboratory ([CURLY](https://curly.engin.umich.edu/)), and the [Bipedal Robotics lab](https://www.biped.solutions/) at UM.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+I am broadly interested in Robotics, Computer Vision and Machine Learning. Specifically, my research focuses on perception and navigation for robot autonomy.
