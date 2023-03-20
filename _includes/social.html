@@ -91,8 +91,11 @@
             {%- if site.facebook_id -%}
             <a href="https://facebook.com/{{ site.facebook_id }}" title="Facebook"><i class="fab fa-facebook"></i></a>
             {% endif %}
-            {%- if site.youtube_id -%}
+            <!-- {%- if site.youtube_id -%}
             <a href="https://youtube.com/@{{ site.youtube_id }}" title="YouTube"><i class="fab fa-youtube"></i></a>
+            {% endif %} -->
+            {%- if site.bilibili_id -%}
+            <a href="https://space.bilibili.com/{{ site.bilibili_id }}" title="Bilibili"><i class="fab fa-youtube"></i></a>
             {% endif %}
             {%- if site.discord_id -%}
             <a href="https://discord.com/users/{{ site.discord_id }}" title="Discord"><i class="fab fa-discord"></i></a>
@@ -100,3 +103,4 @@
             {%- if site.rss_icon -%}
             <a href="{{ site.baseurl }}/feed.xml" title="RSS Feed"><i class="fas fa-rss-square"></i></a>
             {% endif %}
+             
