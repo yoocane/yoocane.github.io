@@ -29,4 +29,3 @@ group :other_plugins do
     gem 'httparty'
 end
 
-gem "webrick", "~> 1.8"
