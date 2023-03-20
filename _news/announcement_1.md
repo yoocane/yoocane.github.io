@@ -1,6 +1,5 @@
 ---
 layout: post
-# date: <div><abbr class="badge">{{2020-06-16 11:28:00-0800 }}</abbr></div>
 date: 2020-06-16 11:28:00-0800 
 inline: true
 ---
