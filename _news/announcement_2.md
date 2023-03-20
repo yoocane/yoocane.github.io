@@ -5,4 +5,4 @@ inline: true
 ---
 
 
-Graduated form HITsz! Cheers! 🥂
+Graduated form HITsz! Cheers!
