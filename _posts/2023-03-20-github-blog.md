@@ -87,6 +87,7 @@ git clone git@github.com:<用户名>/<用户名>.git
         <span style="color:#024f92">{{author.first}} {{author.last}}</span>
         </strong>
         <!-- <em>{{author.first}} {{author.last}}</em> -->
+        {%- endif -%}
         ```
     * 相关内容放在首页，打开_pages->about文件，选择publications: true. bibtex条目中添加selected={true}
 
