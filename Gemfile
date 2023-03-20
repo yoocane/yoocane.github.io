@@ -16,7 +16,7 @@ group :jekyll_plugins do
     gem 'jemoji'
     gem 'mini_racer'
     gem 'unicode_utils'
-    gem "webrick", "~> 1.7"
+    gem 'webrick'
     # gem "kramdown"
     # gem "kramdown-parser-gfm"
     # gem "rouge"
@@ -24,6 +24,7 @@ group :jekyll_plugins do
     # gem 'wdm', '>= 0.1.0'
     # gem 'wdm','>= 0.1.0', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
     # gem 'listen', '~> 3.0' # NOTE: for TCP functionality, use '~> 2.10' for now
+    # gem "webrick", "~> 1.7"
 
 
 end
