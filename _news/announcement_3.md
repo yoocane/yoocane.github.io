@@ -1,9 +1,7 @@
 ---
 layout: post
-date: 2022-3-15 11:28:00-0800
+date: 2016-01-15 07:59:00-0400
 inline: true
 ---
 
-
-
-Writed a tutorial for blog building with details. :sparkles:
+A simple inline announcement with Markdown emoji! :sparkles: :smile:
