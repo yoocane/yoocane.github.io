@@ -6,4 +6,4 @@ related_posts: false
 ---
 
 
-Writed a tutorial for blog building with details. :sparkles: :smile:
+Writed a tutorial for blog building with details. 

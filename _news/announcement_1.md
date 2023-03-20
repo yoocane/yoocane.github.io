@@ -10,4 +10,4 @@ related_posts: false
 Hosted by [GitHub Pages](https://pages.github.com/). -->
 
 First blog added that powered by <a href="https://jekyllrb.com/">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio/">al-folio</a> theme.
-Hosted by <a href="https://pages.github.com/">GitHub Pages</a>.
+Hosted by <a href="https://pages.github.com/">GitHub Pages</a>. :sparkles: :smile:
