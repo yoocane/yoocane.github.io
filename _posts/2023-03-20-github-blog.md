@@ -55,7 +55,7 @@ git clone git@github.com:<用户名>/<用户名>.git
 * 浏览器直接访问 [http://127.0.0.1:4000/](http://127.0.0.1:4000/)
 * 如此即可随时在本地修改源代码并进行网站效果查看
 
-  #### 实际遇到的报错解决如下
+  ##### 实际遇到的报错解决如下
   * 注释+添加相应插件
   ```bash
     # gem 'mini_racer'
@@ -67,8 +67,7 @@ git clone git@github.com:<用户名>/<用户名>.git
     gem 'wdm', '>= 0.1.0'  
   ```
 
-
-4. 个性化主题本地修改
+4.个性化主题本地修改
 * News，project, blog 分别在 _news, _projects,  _posts文件夹进行对比学习+修改
 * News小标题+文字的格式排版修改: 打开_includes->news.html
     ```bash
@@ -78,25 +77,23 @@ git clone git@github.com:<用户名>/<用户名>.git
     </div>
     </th>
     ```
+
 * Publications修改
     * 参考模板bib，填充相应的小框及对应的问题，在_includes->bib.html可拓展展示的内容，
     * 加粗自己的名字显示格式，并注释掉more_authors相关行
         ```bash
-        {%- if author_is_self -%}
         <strong>
         <span style="color:#024f92">{{author.first}} {{author.last}}</span>
         </strong>
         <!-- <em>{{author.first}} {{author.last}}</em> -->
-        {%- endif -%}
         ```
     * 相关内容放在首页，打开_pages->about文件，选择publications: true. bibtex条目中添加selected={true}
-* 其他格式修改方法：针对自己喜欢的模板，F12刷新该网页，直接看对应的代码，基本能确定静态页面的相关参数和设计。之后在自己repo里面搜索相关的设置参数进行修改
+* **其他格式修改方法**：针对自己喜欢的模板，F12刷新该网页，直接看对应的代码，基本能确定静态页面的相关参数和设计。之后在自己repo里面搜索相关的设置参数进行修改
 
 5.最终推送
 * Gemfile文件修改，回复出事的参数，不然action会报错
 * 类似步骤2，重新提交：git add . -> git commit -m “blog2” -> git push
 
-
-6. TODO——将public repo改成private repo
+6.TODO—将public repo改成private repo
 * 通过公开仓储 + 私有仓储 + Github Actions的配置，实现参考: [GitHub 私有仓库免费开启 GitHub Pages 的可行性方案](https://zhuanlan.zhihu.com/p/541944539)
-* **问题：通过网页刷新F12，他人还是能看到所有的代码和参数配置，只是稍微麻烦一下而已**
+* **该方法问题：通过网页刷新F12，他人还是能看到所有的代码和参数配置，只是稍微麻烦一下而已**
