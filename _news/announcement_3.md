@@ -6,4 +6,4 @@ inline: true
 
 
 
-Writed a tutorial for blog building with details. :sparkles:
+Writed a tutorial for blog building with details. :sparkles: :smile:
