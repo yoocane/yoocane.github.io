@@ -90,7 +90,13 @@ git clone git@github.com:<用户名>/<用户名>.git
         {%- endif -%}
         ```
     * 相关内容放在首页，打开_pages->about文件，选择publications: true. bibtex条目中添加selected={true}
+* 其他格式修改方法：针对自己喜欢的模板，F12刷新该网页，直接看对应的代码，基本能确定静态页面的相关参数和设计。之后在自己repo里面搜索相关的设置参数进行修改
 
 5.最终推送
 * Gemfile文件修改，回复出事的参数，不然action会报错
 * 类似步骤2，重新提交：git add . -> git commit -m “blog2” -> git push
+
+
+6. TODO——将public repo改成private repo
+* 通过公开仓储 + 私有仓储 + Github Actions的配置，实现参考: [GitHub 私有仓库免费开启 GitHub Pages 的可行性方案](https://zhuanlan.zhihu.com/p/541944539)
+* **问题：通过网页刷新F12，他人还是能看到所有的代码和参数配置，只是稍微麻烦一下而已**
