@@ -6,9 +6,8 @@ layout: default
       <div class="post">
         <header class="post-header">
           <h1 class="post-title">
-            {% if site.title == "blank" -%}<span class="font-weight-bold">Chen Yao</span> 
+            {% if site.title == "blank" -%}<span class="font-weight-bold">Chen Yao</span> (姚 辰)
             <!-- {{ site.middle_name }} {{ site.last_name }} -->
-            (姚 辰)
             {%- else -%}{{ site.title }}
             {%- endif %}
           </h1>
@@ -48,7 +47,7 @@ layout: default
           {% if page.news -%}
             <!-- <h2><a href="{{ '/news/' | relative_url }}" style="color: inherit;">news</a></h2> -->
             <HR align=center width="100%" SIZE=7>
-            <!-- <h2>News</h2> -->
+            <h2>News</h2>
             {%- include news.html %}
           {%- endif %}
 
@@ -58,7 +57,7 @@ layout: default
           <!-- Selected papers -->
           {% if page.publications -%}
             <!-- <h2><a href="{{ '/publications/' | relative_url }}" style="color: inherit;">selected publications</a></h2> -->
-            <!-- <h2>Publications</h2> -->
+            <h2>Publications</h2>
             {%- include selected_papers.html %}
           {%- endif %}
 
@@ -115,13 +114,14 @@ layout: default
               
             </div>
           {%- endif %}
+
+
+          <p style="margin-top:30px"></p>
+          <p style="text-align:center">See more here and wait...</p>  
+          <!-- <HR align=center width="100%" SIZE=7> -->
+          <!-- <p style="margin-top:30px"></p>
+
+
+
         </article>
-
-
-
-        <p style="margin-top:30px"></p>
-        <hr align=center width="100%" SIZE=7></hr>
-        <!-- <hr/> -->
-        <p style="text-align:center">See more here and wait...</p>
-        <!-- <p style="margin-top:30px"></p> -->
 </div>
